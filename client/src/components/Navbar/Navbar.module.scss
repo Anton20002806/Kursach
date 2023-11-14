@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  justify-content: space-around;
+  background: blue;
+  height: 50px;
+  padding-top: 25px;
+}
+
+.root a {
+  color: lightblue;
+}
+.root a.active {
+  color: red;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:active {
+  color: red;
+}
