@@ -1,0 +1,57 @@
+.root {
+  width: 1920px;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: row; */
+  /* flex-wrap: nowrap; */
+  /* align-content: flex-start; */
+  align-items: center;
+  div {
+    padding: 0 45px;
+  }
+  background-color: transparent;
+}
+
+
+.logo_dark {
+  width: 270px;
+  height: 38px;
+  flex-shrink: 0;
+  padding: 25px 10px 20px 10px;
+}
+
+.points {
+  display: flex;
+  align-items: center;
+}
+
+.points a {
+  color: black;
+  font-family: Montserrat, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.imgpoint {
+
+}
+
+.buttons {
+
+}
+
+.buttons .button {
+  width: 136px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 200px;
+  background-color: transparent;
+  color: #FFF;
+  font-family: serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

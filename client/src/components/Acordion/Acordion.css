@@ -1,0 +1,32 @@
+.accordion-item{
+    background-color: #FFFFFF;
+    width: 1600px;
+    border-top: 1px solid #C0C2D7;
+    border-bottom:  1px solid #C0C2D7;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+.accordion-title{
+    padding: 20px 0 20px 30px;
+    color: #333;
+    font-family: Raleway, serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 33px */
+}
+.accordion-content{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+    color: #000;
+    font-family: Montserrat, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 28.8px */
+}
